@@ -113,11 +113,6 @@ export default function DashboardPage() {
               </div>
             </div>
           </CardContent>
-          <CardFooter>
-            <Button variant="outline" className="border-pink text-pink hover:bg-pink-light/20">
-              View All Activity
-            </Button>
-          </CardFooter>
         </Card>
       </div>
     </div>

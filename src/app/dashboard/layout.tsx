@@ -18,7 +18,6 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-import {cn} from "@/lib/utils";
 
 export default function DashboardLayout({
   children,
@@ -48,7 +47,7 @@ export default function DashboardLayout({
         <Sidebar className={sidebarBackground}>
           <SidebarHeader>
             <div className="flex items-center gap-2 px-4 py-4">
-              <span className="font-bold text-xl gradient-text">GiftSense</span>
+              <span className="font-bold text-xl gradient-text">WishWell</span>
             </div>
           </SidebarHeader>
           <SidebarContent>
@@ -141,10 +140,12 @@ export default function DashboardLayout({
             <SidebarTrigger className="text-purple" />
             <div className="w-full flex justify-between">
               <h1 className="text-xl font-semibold gradient-text">Dashboard</h1>
-              <Button variant="outline" size="sm" className="border-purple text-purple hover:bg-purple-light-20">
-                <Bell className="h-4 w-4 mr-2" />
-                Notifications
-              </Button>
+              <Link href="/dashboard/notifications">
+                <Button variant="outline" size="sm" className="border-purple text-purple hover:bg-purple-light-20">
+                  <Bell className="h-4 w-4 mr-2" />
+                  Notifications
+                </Button>
+              </Link>
             </div>
           </header>
           <main className="flex-1 p-6 bg-gray-50 h-full">{children}</main>
