@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col min-h-screen">
         <header className="px-4 lg:px-6 h-16 flex items-center border-b w-screen mx-auto">
           <Link href="/" className="flex items-center justify-center">
-            <span className="font-bold text-2xl gradient-text">GiftSense</span>
+            <span className="font-bold text-2xl gradient-text">WishWell</span>
           </Link>
           <nav className="ml-auto flex gap-4 sm:gap-6">
             <Link href="#features" className="text-sm font-medium hover:text-purple-dark transition-colors">
@@ -51,7 +51,7 @@ export default function Home() {
                     <span className="gradient-text">Gifts</span>
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl">
-                    GiftSense helps you track important dates and suggests personalized gifts based on your contacts'
+                    WishWell helps you track important dates and suggests personalized gifts based on your contacts'
                     interests.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 pt-4">
@@ -182,7 +182,7 @@ export default function Home() {
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">How It Works</h2>
                   <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    GiftSense makes it easy to remember important dates and find the perfect gifts.
+                    WishWell makes it easy to remember important dates and find the perfect gifts.
                   </p>
                 </div>
               </div>
@@ -363,7 +363,7 @@ export default function Home() {
                         </div>
                       </div>
                       <p className="text-gray-600 italic text-sm">
-                        "GiftSense has completely transformed how I remember birthdays. The gift suggestions are spot-on,
+                        "WishWell has completely transformed how I remember birthdays. The gift suggestions are spot-on,
                         and I've never missed an important date since signing up!"
                       </p>
                     </div>
@@ -451,10 +451,10 @@ export default function Home() {
           <div className="pt-16 pb-12 bg-white border-t border-gray-100 text-gray-600">
             <div className="container px-4 md:px-6 mx-auto">
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 mb-8">
-                {/* GiftSense Section */}
+                {/* WishWell Section */}
                 <div>
                   <div className="mb-2">
-                    <span className="font-bold text-xl text-gray-800">GiftSense</span>
+                    <span className="font-bold text-xl text-gray-800">WishWell</span>
                   </div>
                   <p className="text-gray-500 mb-6">
                     Never forget a birthday again.
@@ -531,7 +531,7 @@ export default function Home() {
               {/* Footer Bottom */}
               <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-100">
                 <p className="text-sm text-gray-500 mb-4 md:mb-0">
-                  © 2025 GiftSense. All rights reserved.
+                  © 2025 WishWell. All rights reserved.
                 </p>
                 <div className="flex space-x-4">
                   <Link href="#" className="text-gray-400 hover:text-purple transition-colors">
